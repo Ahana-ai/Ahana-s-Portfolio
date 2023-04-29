@@ -32,7 +32,7 @@ const NavBar = () => {
           <img src={Logo} alt="Logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="Navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -46,7 +46,7 @@ const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#skill"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -55,7 +55,7 @@ const NavBar = () => {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#project"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
